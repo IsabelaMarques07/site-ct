@@ -121,7 +121,7 @@ const images = [
     document.addEventListener('DOMContentLoaded', function () {
         var newCarouselElement = document.getElementById('newCarouselExample');
         var newCarousel = new bootstrap.Carousel(newCarouselElement, {
-            interval: 1500,
+            interval: 250,
             wrap: true,
             pause: 'hover',
             ride: 'carousel'
