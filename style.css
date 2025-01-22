@@ -200,105 +200,105 @@ header {
     color: var(--primary-color);
 }
 
-/* OPORTUNIDADE */
-#oportunidade .content-box {
+/* SOBRE NOS */
+#sobre-nos .content-box {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 40px;
     margin-top: 16px
 }
 
-#oportunidade .section-title {
+#sobre-nos .section-title {
     color: var(--primary-color);
     font-weight: bold;
     text-align: left;
 }
 
-#oportunidade p {
+#sobre-nos p {
     text-align: left;
 }
 
-#oportunidade .feature-icon {
+#sobre-nos .feature-icon {
     font-size: 2.6rem;
     color: var(--primary-color);
     text-shadow: 0 0 10px var(--primary-color), 0 0 20px var(--primary-color), 0 0 30px var(--primary-color);
 }
 
-#oportunidade .topic-title {
+#sobre-nos .topic-title {
     font-size: 1.2rem;
     color: var(--secondary-color);
     text-align: left;
 }
 
-#oportunidade .col-md-6:first-child {
+#sobre-nos .col-md-6:first-child {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
 
-#oportunidade .col-md-6:first-child>div:nth-child(-n+2) {
+#sobre-nos .col-md-6:first-child>div:nth-child(-n+2) {
     display: flex;
     align-items: center;
     width: 100%;
 }
 
-#oportunidade .col-md-6:first-child>div:nth-child(3) {
+#sobre-nos .col-md-6:first-child>div:nth-child(3) {
     align-self: center;
     width: 100%;
 }
 
 @media (max-width: 767.98px) {
-    #oportunidade .content-box {
+    #sobre-nos .content-box {
         margin: 30px 15px;
         padding: 30px 20px;
     }
 
-    #oportunidade .col-md-6 {
+    #sobre-nos .col-md-6 {
         text-align: left;
     }
 
-    #oportunidade .section-title {
+    #sobre-nos .section-title {
         text-align: left;
     }
 
-    #oportunidade p {
+    #sobre-nos p {
         text-align: left;
     }
 
-    #oportunidade .col-md-6:first-child {
+    #sobre-nos .col-md-6:first-child {
         align-items: center;
     }
 
-    #oportunidade .col-md-6:first-child>div:nth-child(-n+2) {
+    #sobre-nos .col-md-6:first-child>div:nth-child(-n+2) {
         width: 100%;
     }
 
-    #oportunidade .d-flex {
+    #sobre-nos .d-flex {
         flex-direction: column;
         align-items: center;
     }
 
-    #oportunidade .col-md-6 d-flex {
+    #sobre-nos .col-md-6 d-flex {
         align-items: center;
     }
 
-    #oportunidade .row {
+    #sobre-nos .row {
         text-align: center;
     }
 }
 
 /* CONTEUDO CURSO */
-#conteudo-curso {
+#especializacoes {
     background-color: transparent;
     height: auto;
     padding: 2rem 0;
 }
 
-#conteudo-curso .section-title {
+#especializacoes .section-title {
     font-weight: bold;
     color: var(--text-color);
 }
 
-#conteudo-curso .card-content {
+#especializacoes .card-content {
     z-index: 1;
     background-color: transparent;
     border-radius: 0;
@@ -313,19 +313,19 @@ header {
     font-size: 0.9rem;
 }
 
-#conteudo-curso .card-icon {
+#especializacoes .card-icon {
     font-size: 2.5rem;
     color: var(--primary-color);
 }
 
-#conteudo-curso .card-title {
+#especializacoes .card-title {
     font-size: 1.2rem;
     color: var(--primary-color);
     margin-bottom: 6px;
     font-weight: 600;
 }
 
-#conteudo-curso .card-text {
+#especializacoes .card-text {
     color: var(--text-color);
     font-size: 1rem;
 }
@@ -932,7 +932,7 @@ footer a {
 }
 
 @media (max-width: 768px) {
-    #oportunidade .whatsapp-button {
+    #sobre-nos .whatsapp-button {
         margin-bottom: 20px;
     }
 }
