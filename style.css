@@ -1296,3 +1296,13 @@ footer a {
         max-width: 90%;
     }
 }
+
+
+
+@media (max-width: 768px) {
+    .navbar-collapse {
+        background-color: var(--background-color);
+        color: var(--secondary-color);
+            padding: 10px
+    }
+}
