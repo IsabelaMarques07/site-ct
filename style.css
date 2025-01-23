@@ -745,6 +745,32 @@ header {
     transform: translateY(0%);
     flex: 2;
 }
+.apply-effect {
+    position: static;
+    max-height: none;
+    padding: 20px;
+    transform: none;
+}
+
+.apply-effect.bordered-container {
+    border: 1px solid white;
+    position: static;
+    max-height: none;
+    padding: 20px;
+}
+
+.apply-effect.half-out {
+    position: static;
+    transform: none;
+}
+
+#loadMoreBtn{
+    background-color: var(--primary-color);
+    color: var(--highlight-color);
+    border: none;
+    padding: 10px 20px;
+    margin: 20px auto;
+}
 
 @media (max-width: 990.98px) {
     #depoimentos {
