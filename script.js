@@ -1,13 +1,28 @@
 const images = [
-    'images/image-1.jpg',
-    'images/image-2.jpg',
-    'images/image-3.jpg',
-    'images/image-4.jpg',
-    'images/image-5.jpg',
-    'images/image-6.jpg',
-    'images/image-7.jpg'
-    // ... adicione mais imagens se necessário
-  ];
+    'images/carrossel-pratica/img-1.png',
+    'images/carrossel-pratica/img-2.png',
+    'images/carrossel-pratica/img-3.png',
+    'images/carrossel-pratica/img-4.png',
+    'images/carrossel-pratica/img-5.png',
+    'images/carrossel-pratica/img-6.png',
+    'images/carrossel-pratica/img-7.png',
+    'images/carrossel-pratica/img-8.png',
+    'images/carrossel-pratica/img-9.png',
+    'images/carrossel-pratica/img-10.png',
+    'images/carrossel-pratica/img-11.png',
+    'images/carrossel-pratica/img-12.png',
+    'images/carrossel-pratica/img-13.png',
+    'images/carrossel-pratica/img-14.png',
+    'images/carrossel-pratica/img-15.png',
+    'images/carrossel-pratica/img-16.png',
+    'images/carrossel-pratica/img-17.png',
+    'images/carrossel-pratica/img-18.png',
+    'images/carrossel-pratica/img-19.png',
+    'images/carrossel-pratica/img-20.png',
+    'images/carrossel-pratica/img-21.png',
+    'images/carrossel-pratica/img-22.png',
+    'images/carrossel-pratica/img-23.png'
+];
   
   const carouselInner = document.querySelector('.carousel-inner-pratica');
   const carouselIndicators = document.querySelector('.carousel-indicators-pratica');
@@ -90,14 +105,18 @@ const images = [
 
 
     const newImages = [
-        'images/cert-1.jpg',
-        'images/cert-2.jpg',
-        'images/cert-3.jpg',
-        'images/cert-4.jpg',
-        'images/cert-5.jpeg',
-        'images/cert-6.jpg',
-        'images/cert-7.jpg',
-        'images/cert-8.jpeg'
+        'images/carrossel-inicial/img-1.png',
+        'images/carrossel-inicial/img-2.png',
+        'images/carrossel-inicial/img-3.png',
+        'images/carrossel-inicial/img-4.png',
+        'images/carrossel-inicial/img-5.png',
+        'images/carrossel-inicial/img-6.png',
+        'images/carrossel-inicial/img-7.png',
+        'images/carrossel-inicial/img-8.png',
+        'images/carrossel-inicial/img-9.png',
+        'images/carrossel-inicial/img-10.png',
+        'images/carrossel-inicial/img-11.png',
+        'images/carrossel-inicial/img-12.png'
     ];
     
     const newCarouselInner = document.querySelector('.carousel-inner-cert');

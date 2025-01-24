@@ -1109,7 +1109,7 @@ footer a {
     text-decoration: line-through;
 }
 
-#cursos-basicos .modal-content{
+.modal-content{
     border: none;
     border-radius: 0;
     background-color: var(--background-color);
@@ -1122,18 +1122,18 @@ footer a {
     border: 2px solid var(--primary-color);
 }
 
-#cursos-basicos .modal-header{
+.modal-header{
  background-color: var(--primary-color);
  border-radius: 0;
  border: 2px solid var(--primary-color);
 }
 
-#cursos-basicos .modal-header h5{
+.modal-header h5{
     font-weight: bolder;
     color: #222222;;
    }
 
-   #cursos-basicos .modal-body{
+   .modal-body{
     color: #c4c4c4;
     position: relative;
     padding-bottom: 15px;
@@ -1145,30 +1145,30 @@ footer a {
     font-size: large;
 }
 
-#cursos-basicos .beneficios-curso i {
+.modal-dialog .beneficios-curso i {
     color: var(--primary-color);
     font-size: large;
 }
 
 
-#cursos-basicos strong{
+.modal-dialog strong{
     color: var(--secondary-color);
     font-weight: bolder;
     font-size: 18px;
 }
 
-#cursos-basicos .accordion-item{
+.modal-dialog .accordion-item{
     padding: 0;
     background-color: transparent;
     border:none;
     color: var(--secondary-color);
 }
 
-#cursos-basicos .accordion-body{
+.modal-dialog .accordion-body{
     padding: 5px;
 }
 
-#cursos-basicos .accordion-button{
+.modal-dialog .accordion-button{
     padding: 3px;
     background-color: #00000000;
     border-bottom: 1px solid rgba(248, 150, 36, 0.5);
@@ -1177,26 +1177,22 @@ footer a {
     margin-bottom: 5px;
 }
 
-.accordion-button:not(.collapsed) {
-    background-color: rgba(0, 0, 0, 0.1); /* Slightly darker background when expanded */
-    color: #000; /* Adjust text color as needed */
-}
 .accordion-body {
     background-color: transparent;
     border: none;
 }
 
 
-#cursos-basicos .beneficios{
+.modal-dialog .beneficios{
     height: 10vh;
     width: 25vh;
 }
 
-#cursos-basicos .beneficios p{
+.modal-dialog .beneficios p{
     font-size: 0.8rem;
 }
 
-#cursos-basicos .beneficios-curso *:hover{
+.modal-dialog .beneficios-curso *:hover{
     transform: none !important;
     background: transparent;
     border: none;
@@ -1246,19 +1242,19 @@ footer a {
     text-align: left;
 }
 
-#cursos-basicos .valor-final {
+.modal-dialog .valor-final {
     font-size: 1.2rem;
     font-weight: 500;
     display: block;
 }
 
-#cursos-basicos .destaque{
+.modal-dialog .destaque{
     color: var(--primary-color);
     font-weight: bolder;
     font-size: 20px;
 }
 
-#cursos-basicos .valor-parcela {
+.modal-dialog .valor-parcela {
     font-size: 1rem;
     font-weight: 700;
     color: var(--primary-color);
@@ -1331,4 +1327,25 @@ footer a {
         color: var(--secondary-color);
             padding: 10px
     }
+}
+
+
+#especializacoes .cartao{
+    color: var(--primary-color);
+    font-weight: bolder;
+    font-size: large;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+}
+#especializacoes .valor-inicial{
+    color: var(--second-color);
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-decoration: line-through;
+}
+#especializacoes .valor-final {
+    font-size: 1.2rem;
+    font-weight: 500;
+    display: block;
 }
