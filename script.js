@@ -120,7 +120,8 @@ const images = [
     ];
     
     const newCarouselInner = document.querySelector('.carousel-inner-cert');
-    
+
+
     newImages.forEach((image, index) => {
         const newCarouselItem = document.createElement('div');
         newCarouselItem.classList.add('carousel-item');
@@ -136,17 +137,21 @@ const images = [
         newCarouselItem.appendChild(newImgElement);
         newCarouselInner.appendChild(newCarouselItem);
     });
-    
-    document.addEventListener('DOMContentLoaded', function () {
-        var newCarouselElement = document.getElementById('newCarouselExample');
-        var newCarousel = new bootstrap.Carousel(newCarouselElement, {
-            interval: 250,
-            wrap: true,
-            pause: 'hover',
-            ride: 'carousel'
+
+    document.getElementById('scrollToCursosBasicos').addEventListener('click', function(event) {
+        event.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        const offset = 100; // Ajuste a quantidade de deslocamento conforme necessário
+        const bodyRect = document.body.getBoundingClientRect().top;
+        const elementRect = target.getBoundingClientRect().top;
+        const elementPosition = elementRect - bodyRect;
+        const offsetPosition = elementPosition - offset;
+
+        window.scrollTo({
+            top: offsetPosition,
+            behavior: 'smooth'
         });
     });
-
 
     document.getElementById('loadMoreBtn').addEventListener('click', function() {
         const testimonials = [
